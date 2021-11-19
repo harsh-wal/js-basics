@@ -1,6 +1,6 @@
 console.log('test');
-let a;
-const b = 1;
+let a1;
+const b1 = 1;
 
 const person = { name: 'harsh' };
 person.name = 'adfds';
@@ -13,7 +13,7 @@ a.push(2);
 a.push('adffsads');
 a.push({ name: 'sfds' });
 
-let a = 1;
+let a2 = 1;
 let val = false;
 let str = 'sdafdsaf';
 let float = 1.2;
@@ -22,40 +22,38 @@ let obj = {};
 let arr = [];
 let js = null;
 
-console.log(run());
-
 const run = () => {
   return 'afdas';
 };
 
-function run() {
+console.log(run());
+
+function run1() {
   return { name: 'sadsa' };
 }
 
-console.log(run());
+console.log(run1());
 
 // let, const // block scope
 
-const a = 'abc';
-const b = 'def';
+const a4 = 'abc';
+const b4 = 'def';
 
-const c = `this is a sting ${a}${b}`;
+const c2 = `this is a sting ${a4}${b4}`;
 
-const person = { name: 'ssfd', age: 10, gender: 'f' };
+const person1 = { name: 'ssfd', age: 10, gender: 'f' };
 
-const { name, ...obj } = person;
+const { name, ...obj1 } = person1;
 
-console.log(gender);
+person1.name;
+person1.age;
 
-person.name;
-person.age;
+const array1 = [1, 2, 3, 4, 5];
+const [one, ...anotherArray] = array1;
 
-const array = [1, 2, 3, 4, 5];
-const [one, ...anotherArray] = array;
-
-array[0];
-array[1];
-array[2];
+array1[0];
+array1[1];
+array1[2];
 
 function getName({ name }) {
   return name;
@@ -63,8 +61,8 @@ function getName({ name }) {
 
 console.log(getName(person));
 
-for (let i = 0; i < array.length; i++) {
-  console.log(array[i]);
+for (let i = 0; i < array1.length; i++) {
+  console.log(array1[i]);
 }
 
 const array = [
